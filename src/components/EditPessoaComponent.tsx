@@ -75,7 +75,7 @@ export function EditPessoaComponent({
               >
                 <Dialog.Panel
                   as="form"
-                  onSubmit={(p) => {
+                  onSubmit={(p: any) => {
                     editPessoa(p);
                     closeModal();
                   }}

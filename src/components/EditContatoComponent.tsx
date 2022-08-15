@@ -84,7 +84,7 @@ export function EditContatoComponent({
               >
                 <Dialog.Panel
                   as="form"
-                  onSubmit={(c) => {
+                  onSubmit={(c: any) => {
                     editContato(c);
                     closeModal();
                   }}

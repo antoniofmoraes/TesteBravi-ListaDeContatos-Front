@@ -197,7 +197,7 @@ function App() {
       })
   }
 
-  function ModalError(props) {
+  function ModalError(props: any) {
     const errorModalState = props.errorModalState;
     if (errorModalState) {
       return (

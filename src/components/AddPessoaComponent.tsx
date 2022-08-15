@@ -85,7 +85,7 @@ export function AddPessoaComponent({ handleAddPessoa }: propsAddPessoa) {
               >
                 <Dialog.Panel
                   as="form"
-                  onSubmit={(p) => {
+                  onSubmit={(p: any) => {
                     addPessoa(p);
                     closeModal();
                   }}
